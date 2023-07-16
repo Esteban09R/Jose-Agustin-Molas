@@ -50,7 +50,7 @@ nav a {
 
 body a:hover {
     color: #F4AAFF;
-    transform: translateY(4px) scale(1.2);
+    transform: translateY(1px) scale(1.4);
 }
 
 a {
