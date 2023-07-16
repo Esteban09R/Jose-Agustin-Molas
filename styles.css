@@ -1,0 +1,106 @@
+* {
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+body{
+    background-color: #778;
+    font-family: arial;
+    font-size: 24px;
+    margin: 0;
+    text-indent: 10px;
+}
+
+header {
+    display: flex;
+    min-height: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #778;
+    font-size: 30px;
+}
+
+.logo img{
+    height: 80px;
+    margin-right: 10px;
+}
+.logo2 img{
+    height: 20px;
+    margin: auto;
+    margin-right: 10px;
+}
+
+.logo{
+    display: flex;
+    text-color: #242;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+nav a:hover {
+    color: white;
+    transform: translateY(-2px) scale(1.1);
+}
+
+a {
+    color: #9f9;
+    text-decoration: none;
+}
+
+.contenedor {
+    background-color: #445;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contenedor h2{
+    text-align: center;
+}
+
+
+h3{
+    margin-top: 50px;
+}
+
+footer {
+    display: flex;
+    min-height: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #778;
+    font-size: 30px;
+}
+
+footer a:hover {
+    color: white;
+    transform: translateY(-2px) scale(1.1);
+}
+
+
+@media (min-width:1000px){
+    header{
+        flex-direction: row;
+    }
+    
+    .logo img{
+        height: 50px;
+        margin-right: 10px;
+    }
+    
+    nav{
+        padding: 0px 10px;
+    }
+}
